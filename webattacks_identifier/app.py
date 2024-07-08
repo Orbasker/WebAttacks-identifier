@@ -40,7 +40,7 @@ if selected_file:
 
 # File upload option
 uploaded_file = st.file_uploader(
-    "Or choose a PCAP file to upload", type=["pcap", "pcapng"]
+    "Or choose a PCAP file to upload", type=["pcap", "cap", "pcapng"]
 )
 
 if uploaded_file is not None:
